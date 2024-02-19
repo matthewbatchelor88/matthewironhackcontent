@@ -1,0 +1,27 @@
+# Project Title: 
+
+Song recommender 
+
+## Description
+
+The objective of this one week project was to build a song recommender based on user input, applying webs-scraping, API and Machine Learning
+techniques.
+My model should cross-check user input against the Billboard Hot 100 to designate a song as "hot" or not "hot". 
+If the song is designated "hot", my model should recommend users another random song from the Billboard Hot 100. 
+If the song is not designated "hot", my model should retrive the audio features of the song by querying Spotify through an API, 
+predict a cluster of the song based on the dataframe (approx. 3000 songs) on which I trained my model and recommend users a random song
+from the predicted cluster. 
+
+## The key files in this repository are: 
+
+- ipynb Notebooks: 
+
+  - MVP_Song_Recommender.ipynb is where you find my song recommender 
+  - Other Notebooks which show both my working and how I built the dataframes can be viewed in the Archives folder 
+
+- CSVs:
+
+These are all CSVs created by exporting dataframes I built. I exported them to CSV for re-usability across Notebooks: 
+  - billboard_hot_100_df.csv
+  - my_music.csv
+  - my_music_training_data.csv 
